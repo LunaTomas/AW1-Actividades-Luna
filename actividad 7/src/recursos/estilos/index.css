@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+/*Selectores genericos*/
+html{
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #F1F5F9;
+    margin: 0;
+}
+
+a{
+    text-decoration: solid;
+}
+
+main, footer {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+button{
+    background-color: #06B6D4;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
+
+/*Diseño encabezado*/
+.encabezado-principal{
+    background-color: #0F172A;
+    border-bottom: 2px solid #000000;
+}
+
+.encabezado-principal nav{
+    padding: 5px;
+    border: 1px solid #666464;
+    background-color: rgb(146, 162, 177);
+    font-weight: bold;
+}
+
+.encabezado-principal nav a{
+    color: #FFFFFF;
+    text-decoration: solid;
+}
+
+/*Diseño del main*/
+.contenido-principal form input, select, textarea{
+    display: block;
+    width: 25%;
+}
+
+.contenido-principal h1,h2,h3,p{
+    color: #0F172A;
+}
+
+/*Diseño del footer*/
+.pie-pagina{
+    background-color: #020617  ;
+    border-top: 2px solid #000000;
+}
+
+.pie-pagina li,.pie-pagina a, .pie-pagina h2, .pie-pagina h3{
+    color: #FFFFFF;
+}
+
+.pie-pagina iframe{
+    border: 5px solid #c2bdbd;
+    border-radius: 10px;
+}
+
+

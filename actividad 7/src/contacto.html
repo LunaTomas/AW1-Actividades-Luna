@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VargasCyberSeguridad - Contacto</title>
+        <link rel="stylesheet" href="./recursos/estilos/index.css">
+    </head>
+
+    <body>
+        <header class="encabezado-principal">
+            <a href="./index.html" aria-label="Ir al inicio">
+                <img src="./recursos/imagenes/inicio/logo_inicio.jpg" alt="Imagen de código de programación">
+            </a>
+            <nav>
+                <a href="./index.html">
+                    Inicio
+                </a>
+                <a href="./contacto.html" aria-label="Ir al contacto">
+                    Contacto
+                </a>
+            </nav>
+        </header>
+
+        <main class="contenido-principal form input">
+            <h1>Formulario de contacto</h1>
+            <p>
+                Si deseas asegurar los datos de tu empresa, completa el siguiente formulario. Me pondré en contacto contigo en menos de 24 horas para agendar una reunión inicial gratuita y evaluar las necesidades de tu negocio.
+            </p>
+            <form action="./contacto.html" method="post">
+                <!--
+                nombre
+                correo electrónico
+                tamaño
+                motivo de consulta
+                --> 
+                <label for="id-nombre">Nombre</label>
+                <input type="text" name="nombre" id="id-nombre">
+
+                <label for="id-correo">Correo electrónico</label>
+                <input type="email" name="correo" id="id-correo">
+
+                <label for="id-tamaño-empresa">Tamaño de la empresa</label>
+                <select name="tamaño-empresa" id="id-tamaño-empresa">
+                    <option value="C">1 a 10 empleados</option>
+                    <option value="M">11 a 50 empleados</option>
+                    <option value="G">Más de 50 empleados</option>
+                </select>
+
+                <label for="id-edad">Edad</label>
+                <input type="number" name="edad" id="id-edad">
+
+                <label for="id-consulta">Motivo de consulta</label>
+                <textarea name="consulta" id="id-consulta"></textarea>
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </main>
+
+        <footer class="pie-pagina">
+            <h2>Nosotros</h2>
+            <ul>
+                <li>
+                    <a href="https://instagram.com/@VargasCyberSeguridad">
+                        @VargasCyberSeguridad
+                    </a>
+                </li>
+                <li>   
+                    Bv. Chacabuco 640 - Bº Nueva Córdoba
+                </li>
+            </ul>
+            <h3>¿Dónde estamos?</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012.1901457301153!2d-64.18415242525533!3d-31.425468369260845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28fd64582f3%3A0x34874522538a024c!2sBlvr.%20Chacabuco%20640%2C%20X5000IIT%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1788359456090!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+        </footer>
+    </body>
+</html>
