@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f2f0e9;
+    color: #30362f;
+}
+
+h1 {
+    color: #304d3b;
+}
+
+h2 {
+    color: #42634d;
+}
+
+h3 {
+    color: #55735c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: #304d3b;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #304d3b;
+}
+
+.encabezado img {
+    width: 150px;
+}
+
+.encabezado ul {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado li {
+    display: inline;
+    list-style: none;
+}
+
+.encabezado nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
+.principal {
+    padding: 2rem;
+}
+
+.principal article {
+    margin-bottom: 3rem;
+}
+
+.principal article img {
+    max-width: 700px;
+    border-radius: 8px;
+}
+
+.precio {
+    margin: 1rem 0;
+}
+
+.precio .monto {
+    color: #304d3b;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precio .detalle {
+    color: #555555;
+    font-size: 0.9rem;
+}
+
+.boton-reserva {
+    display: inline-block;
+    background-color: #42634d;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.contenedor-formulario {
+    padding: 1rem;
+}
+
+.contenedor-formulario form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.contenedor-formulario input {
+    margin-bottom: 1rem;
+}
+
+.contenedor-formulario textarea {
+    margin-bottom: 1rem;
+    height: 120px;
+}
+
+.contenedor-formulario button {
+    max-width: 150px;
+    padding: 0.5rem 1rem;
+    background-color: #42634d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.pie {
+    background-color: #304d3b;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}

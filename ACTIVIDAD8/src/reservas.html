@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Reservas</title>
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="index.html">
+            <img src="./recursos/imagenes/logo-rs.svg"
+                 alt="Isologotipo de Retiro Sustentable">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Cabañas</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+
+        <h1>Reservas</h1>
+
+        <h2>Consultá disponibilidad</h2>
+
+        <p>
+            Completá tus datos y las fechas en las que te gustaría
+            hospedarte en Retiro Sustentable.
+        </p>
+
+        <div class="contenedor-formulario">
+
+            <form action="./reservas.html" method="post">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="fecha-desde">Fecha desde</label>
+                <input type="date" name="fecha-desde" id="fecha-desde">
+
+                <label for="fecha-hasta">Fecha hasta</label>
+                <input type="date" name="fecha-hasta" id="fecha-hasta">
+
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario"></textarea>
+
+                <button type="submit">
+                    Enviar consulta
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer class="pie">
+        <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

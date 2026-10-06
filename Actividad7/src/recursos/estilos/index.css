@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* Selectores genericos */
+html{
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #F1F5F9;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin-left: 40px;
+}
+
+button{
+    background-color: #06B6D4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+/* Diseño encabezado */
+.encabezado-principal{
+    position: sticky;
+    top: 0px;
+    background-color: #0F172A;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.encabezado-principal img{
+    height: 100px;
+}
+
+.encabezado-principal nav{
+    padding: 5px;
+    border: 1px solid #666464;
+    background-color: rgb(146, 162, 177);
+    font-weight: bold;
+}
+
+.encabezado-principal nav a{
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+
+/* Diseño del main */
+.contenido-principal{
+    padding: 20px;
+}
+
+.contenido-principal h1,
+.contenido-principal h2,
+.contenido-principal h3,
+.contenido-principal p{
+    color: #0F172A;
+}
+
+.contenido-principal h1,
+.contenido-principal h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contenido-principal form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px 5px 20px;
+}
+
+.contenido-principal form input,
+.contenido-principal form select{
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.contenido-principal form textarea{
+    width: 100%;
+    max-width: 300px;
+}
+
+.contenido-principal form button{
+    margin-top: 10px;
+}
+
+/* Vínculo flotante a mensajería externa */
+.mensajeria-flotante{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #06B6D4;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Diseño del footer */
+.pie-pagina{
+    background-color: #020617;
+    border-top: 2px solid #000000;
+    padding: 20px;
+}
+
+.pie-pagina li,
+.pie-pagina a,
+.pie-pagina h2,
+.pie-pagina h3{
+    color: #FFFFFF;
+}
+
+.pie-pagina ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pie-pagina iframe{
+    border: 5px solid #c2bdbd;
+    border-radius: 10px;
+}
