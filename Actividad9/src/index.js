@@ -12,10 +12,13 @@ console.log(resta)
 let multiplicacion = numero2 * numero3
 console.log(multiplicacion)
 
-let divicion = numero4 / numero3
-console.log(divicion)
+let division = numero4 / numero3
+console.log(division)
 
-const nombre = 'Tomas'
+let resto = numero4 % numero3;
+console.log(resto);
+
+const nombre = 'Colapinto'
 console.log(nombre)
 
 const palabra1 = 'Programacion'
@@ -27,3 +30,11 @@ const palabra4 = 'Web'
 const palabra5 = '1'
 console.log(palabra3 + ' ' + palabra4 + ' ' + palabra5)
 
+const nombreMateria = "Aplicaciones web 1";
+console.log(nombreMateria + " - Sistemas");
+
+let parentesco = "";
+const Hermano = "Mario";
+const Hermano2 = "Luigi";
+parentesco = Hermano + " es hermano de " + Hermano2;
+console.log(parentesco);

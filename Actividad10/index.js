@@ -51,10 +51,19 @@ for (let i = 0; i < 20; i++) {
 }
 
 //imprime numeros del 1 al 20 concatenando
+// for (let i = 0; i < 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log("el numero " + i + " es par");
+//     } else {
+//         console.log("el numero " + i + " es impar");
+//     }
+// }
+
+//Con template literals
 for (let i = 0; i < 20; i++) {
     if (i % 2 === 0) {
-        console.log("el numero " + i + " es par");
+        console.log(`El número ${i} es par`);
     } else {
-        console.log("el numero " + i + " es impar");
+        console.log(`El número ${i} es impar`);
     }
 }

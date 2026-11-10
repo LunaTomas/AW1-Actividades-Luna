@@ -3,7 +3,7 @@ const contadorCarrito = document.getElementById('contador-carrito');
 const CLAVE_CARRITO = 'cantidadArticulos';
 
 const cantidadGuardada = Number(localStorage.getItem(CLAVE_CARRITO));
-let cantidadArticulos = Number.isSafeInteger(cantidadGuardada)
+let cantidadArticulos = Number(localStorage.getItem("cantidadArticulos"));
 
 contadorCarrito.textContent = cantidadArticulos;
 
